@@ -1,7 +1,7 @@
 # 🎯 Netflix Personalization with Contextual Bandits
 _A simulation-driven approach to personalized content ranking using reinforcement learning_
 
-> Recruiter-friendly case study demonstrating contextual multi-armed bandits (ε-Greedy, LinUCB, Thompson Sampling) for Netflix-style personalization. Includes reproducible simulation, evaluation (CTR, regret), plots, and an interactive Streamlit dashboard.
+> Case study demonstrating contextual multi-armed bandits (ε-Greedy, LinUCB, Thompson Sampling) for Netflix-style personalization. Includes reproducible simulation, evaluation (CTR, regret), plots, and an interactive Streamlit dashboard.
 
 ## 📌 Overview
 This project shows how **Contextual Bandits** can power **personalized recommendations**. We simulate user–item interactions and compare policies on click-through rate (CTR), cumulative reward, and regret.
