@@ -78,3 +78,44 @@ streamlit run dashboard.py
 
 ---
 **License:** MIT
+
+---
+
+## 🚀 Quickstart
+
+Follow these steps to set up and run the project locally:
+
+```bash
+git clone https://github.com/Cristina910/Netflix-Personalization-with-Contextual-Bandits.git
+cd netflix-contextual-bandits
+
+python3 -m venv .venv
+source .venv/bin/activate
+
+pip install -r requirements.txt
+
+python run_bandits.py --steps 5000 --epsilon 0.1
+
+streamlit run dashboard.py
+
+cat << 'EOF' >> README.md
+
+---
+
+## 🚀 Quickstart
+
+Follow these steps to set up and run the project locally:
+
+```bash
+git clone https://github.com/Cristina910/Netflix-Personalization-with-Contextual-Bandits.git
+cd netflix-contextual-bandits
+
+python3 -m venv .venv
+source .venv/bin/activate
+
+pip install -r requirements.txt
+
+python run_bandits.py --steps 5000 --epsilon 0.1
+
+streamlit run dashboard.py
+
