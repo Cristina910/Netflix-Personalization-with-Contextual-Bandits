@@ -1,0 +1,4 @@
+policy,avg_ctr,cumulative_reward,final_regret
+epsilon_greedy_0.1,0.505,202.0,132.59354077723458
+linucb_1.0,0.4675,187.0,136.67776535920004
+thompson_0.1,0.505,202.0,133.7891884522644
